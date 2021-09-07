@@ -1,6 +1,6 @@
 # 11248group5
 
-Member1: Jumiro1
+Member1: Justin Rossiter @Jumiro1
 Member2: thomaspr1205
 Member3: Quinton Wiebe @qwiebe100
 Member4:
