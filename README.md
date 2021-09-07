@@ -1,6 +1,6 @@
 # 11248group5
 
-Member1:
-Member2:
-Member3:
+Justin Rossitier:
+Quinton Wiebe:
+Thomas Pena:
 Member4:
