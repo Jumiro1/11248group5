@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+/* Dashboard dropdown  */
+.dropdown:hover .dropdown-menu{
+  display: block;
+  margin-top: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: linear-gradient(to bottom right, #55a0e6, #49e74e);
+}
+
