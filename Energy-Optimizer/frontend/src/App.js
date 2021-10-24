@@ -13,17 +13,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <div class="navbar-collapse collapse w-100 order-1 order-md-0">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item active">
                       <Link to={"/Services"} className="nav-link">
-                        Services
+                        About Us
                       </Link>
                     </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="/Services#slides">Services</a></li>
+                        <li><a class="dropdown-item" href="/Services#team">Team</a></li>
+                      </ul>
+                    </li>
                     <li class="nav-item active">
-                      <Link to={"/Dashboard"} className="nav-link">
+                      <Link to={"/Dashboard"} className="nav-link" >
                           Dashboard
                       </Link>
                     </li>
@@ -31,9 +39,9 @@ function App() {
                       <a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       </a>
                       <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Graphs</a></li>
-                        <li><a class="dropdown-item" href="#">Map</a></li>
-                        <li><a class="dropdown-item" href="#">Data Analytics</a></li>
+                        <li><a class="dropdown-item" href="/Dashboard#graphs">Graphs</a></li>
+                        <li><a class="dropdown-item" href="/Dashboard#map">Map</a></li>
+                        <li><a class="dropdown-item" href="/Dashboard#dataAnalytics">Data Analytics</a></li>
                       </ul>
                     </li>
                 </ul>
