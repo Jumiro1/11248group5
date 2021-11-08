@@ -3,6 +3,10 @@ import {Container, Row, Col,Nav, Card, Form, Button } from "react-bootstrap";
 import { withRouter } from "react-router";
 import Sidebar from "./Sidebar.js";
 import Map from "./Map.js"
+import BarChart from "./BarChart.js";
+import LineGraph from "./LineGraph.js"
+import ChartsMenu from "./ChartsMenu.js";
+
 import '../style/Dashboard.css'
 
 const Dash = props => {
@@ -21,11 +25,22 @@ const Dash = props => {
                         <h2 Style="color:darkgreen;text-align:center">General</h2>
                         <div id="general" class="row dashCard">
                             content
+                            <div class="container" Style="height:500px">
+                            </div>
                         </div>
+                        <Row>
                         <h2 Style="color:darkgreen;text-align:center">Graphs</h2>
                         <div id="graphs" class="row dashCard">
-                            content
+                            <Row>
+                                <Col>
+                                    <BarChart/>
+                                </Col>
+                                <Col>
+                                    <LineGraph/>
+                                </Col>
+                            </Row>
                         </div>
+                        </Row>
                         <div id="map" class="row ">
                             <div class="map-container">
                                 <h2 Style="color:darkgreen;text-align:center">Map</h2>
@@ -34,7 +49,9 @@ const Dash = props => {
                         </div>
                         <h2 Style="color:darkgreen;text-align:center;margin-top:65px">Data Analytics</h2>
                         <div id="dataAnalytics" class="row dashCard">    
-                            content                    
+                            content 
+                            <div class="container" Style="height:500px">
+                            </div>                   
                         </div>
                         </Col>
                     </Row>
@@ -44,7 +61,7 @@ const Dash = props => {
                     menu 1
                 </div>
                 <div class="row dashMenus ms-1">
-                    menu 2
+                    <ChartsMenu/>
                 </div>
                 <div class="row dashMenus ms-1">
                     menu 3
