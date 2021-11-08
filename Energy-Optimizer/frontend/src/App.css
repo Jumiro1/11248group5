@@ -52,9 +52,8 @@ body {
   flex: 1 0 auto;
 }
 
-/* Other Classes for Page Styling */
-
 body {
-  background: linear-gradient(to bottom right, #55a0e6, #49e74e);
+  background: linear-gradient(to right, #65e169, #55a0e6);
+  height: 100%;
 }
 
