@@ -1,27 +1,15 @@
 import React from "react"
 import {Button, Col, Container, Form, Row, Card} from "react-bootstrap";
+import Register from "./Register.js"
+
+import '../style/Login.css'
 
 function Login(){
     return (
-        <div className="App">
-            Login 
-            
-            <br>
-            </br>
-            <br>
-            </br>
-            <br>
-            </br>
-            <br>
-            </br>
-            
-            <Container>
-                <Row>
-                    <Col lg={4} md={3} sm={6}>
-                        
-                    </Col>
-
-                    <Col lg={4}md={6} sm ={12}>
+        <Row>
+                    <Col>
+                    <div class="loginCard">
+                    <h3> Login </h3>
                         <Form>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
@@ -35,24 +23,19 @@ function Login(){
                             <Form.Label>Password</Form.Label>
                             <Form.Control type="password" placeholder="Password" />
                         </Form.Group>
-                        <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                            <Form.Check type="checkbox" label="Save Password                           " />
-                        </Form.Group>
-
-                        <br>
-                        </br>
+                        <br/>
                         <Button variant="primary" type="submit">
                             Submit
                         </Button>
                         </Form>
+                    </div>
                     </Col>
-
-                    <Col lg={8} md={6} sm={12}>
-                        
+                    <Col>
+                    <div class="loginCard">
+                    <Register/>
+                    </div>
                     </Col>
-                </Row>
-            </Container>
-        </div>
+        </Row>
     );
 }
 
