@@ -75,3 +75,24 @@ The styling and general aspect of the Login and Register forms is defined here
 ### Services.css
 The styling and general aspect of the homepage is defined here
 
+## Visuals
+
+### Home Page
+![image](https://user-images.githubusercontent.com/60591404/142709826-c516dae9-1ac6-456c-9ea1-3cf19b750ed7.png)
+![image](https://user-images.githubusercontent.com/60591404/142709801-23528485-bdc5-44b3-abed-f7ff3a5ade44.png)
+![image](https://user-images.githubusercontent.com/60591404/142709783-55f3b72a-5196-406a-94ae-9ec0461c02dc.png)
+
+### Dashboard
+![image](https://user-images.githubusercontent.com/60591404/142709862-f1093c44-d32f-40e9-9190-d14897083be3.png)
+![image](https://user-images.githubusercontent.com/60591404/142709867-67fad042-deb4-4b80-89c0-dc8aafe488b9.png)
+![image](https://user-images.githubusercontent.com/60591404/142709846-c5e2e11c-5e29-4c5c-8a14-766b67a5eaa5.png)
+![image](https://user-images.githubusercontent.com/60591404/142709855-9ad02820-080f-4009-b7c5-5dd6bc206e40.png)
+
+### Analysis
+![image](https://user-images.githubusercontent.com/60591404/142710027-89eb1d3a-ee5e-42dd-a5ad-3396ab767a84.png)
+
+### Login
+![image](https://user-images.githubusercontent.com/60591404/142709936-5fc469ab-e66e-4767-828c-e8644ff84005.png)
+
+### Account
+![image](https://user-images.githubusercontent.com/60591404/142709931-6332abdf-3f69-4f42-a6db-7d4ce2c03dcc.png)
